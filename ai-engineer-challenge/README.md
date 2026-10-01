@@ -54,10 +54,6 @@ Build a small keyword engine that labels your data with these 13 groups, plus a 
 
 Keep it simple and deliberately imperfect — it stands in for our legacy engine. The LLM reviews its output.
 
-### The hidden set
-
-In the debrief, we run your code on about **300 hand-labelled transactions in Plaid's format** that you have not seen. Make sure your code accepts that format with one command.
-
 ## Environment
 
 - Any language. Python is fine.
@@ -78,7 +74,7 @@ For each transaction, decide whether the legacy label is right. For each one you
 - a confidence
 - a short reason an underwriter can read in five seconds
 
-We score it on:
+We look at:
 
 - **dollar error in monthly revenue per business** after your corrections
 - **hard negatives** — transactions that look wrong but are right. Flagging them wastes underwriter time.
@@ -145,13 +141,13 @@ Two or three pages, for an engineering lead who reads it before your code:
 
 ## The debrief
 
-Every submission is followed by a **60-minute live session** with two engineers. Expect to:
+Every submission is followed by a **60-minute live session** with two engineers. The take-home shows how you research, what you know, and how you use AI tools. The session tests whether you own the result. Expect to:
 
-- run your code on our hidden set and look at the results together
-- walk through one label your reviewer got wrong, and why
-- defend the boundary between model and code
-- extend your code live
-- answer questions about anything in `SOLUTION.md`
+- defend every decision in `SOLUTION.md`, and change your mind when we give you a reason to
+- walk through labels your reviewer got wrong, and why
+- run your code on transactions we bring
+- extend your code live, under time pressure
+- explain which parts an AI tool wrote, and how you checked them
 
 ## What we evaluate
 
