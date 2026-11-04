@@ -8,9 +8,9 @@ Our **Apply Now** flow is the current Fundo brand. Everything else a customer se
 
 | Part | You deliver | Suggested time |
 |---|---|---|
-| [1. Audit](#part-1--audit) | A list of the issues you found, ranked | ~2 h |
+| [1. Audit](#part-1--audit) | A ranked list of issues, and one conversion idea per Apply Now screen | ~2 h |
 | [2. Improve](#part-2--improve) | Before and after of one flow or page, in the Apply Now design | ~2.5 h |
-| [3. Prove it](#part-3--prove-it) | How you would validate it: interviews, A/B test, analytics | ~0.5 h |
+| [3. Prove it](#part-3--prove-it) | How you would validate it: interviews, A/B test, conversion tracking | ~0.5 h |
 | [4. Design system](#part-4--design-system) | One page: how you would build and own it with AI | ~1 h |
 
 **Expected effort: about 6 hours. Send it within 4 days.** Tell us how long you actually spent. Speed is part of the role, so it is part of the test.
@@ -57,6 +57,18 @@ Look at least at:
 
 **Deliver** a ranked list or table. For each issue: where it is, what is wrong, why it matters to the customer or to Fundo, how severe it is, and the evidence (screenshot or link). Put the five that matter most at the top. A long list nobody can act on is worse than a short ranked one.
 
+### Conversion, screen by screen
+
+Every screen of Apply Now loses some customers. **For each screen in the prototype, give us one idea to convert more people to the next screen, and how we would know it worked.** One row per screen:
+
+| Screen | Why people leave here (your guess) | Your idea | Metric that shows it worked | How you would test it |
+|---|---|---|---|---|
+| Example: Mobile number | Fear of spam calls | Say why we need the number and how often we use it | % of people who see the screen and reach First name | A/B test, 50/50 |
+
+Also give one idea for each entry point before Apply Now: the fundo.com home page, a blog post, an Instagram post. A good idea can remove a screen, move it later, or change its words. Not every idea needs a redesign.
+
+Say which ideas you would test first and why. Watch the cost: an idea that adds applications we cannot fund, or customers who do not understand the cost, is not a win.
+
 ## Part 2 — Improve
 
 Pick **the one flow or page** that, from your audit, Fundo needs most right now. It can be an Apply Now step, a page of the website, an email, an Instagram post template — your call. Say why you chose it over your second and third choice.
@@ -77,6 +89,7 @@ A redesign is a guess until customers tell us otherwise. Tell us, briefly, how y
 - **Before you build** — how you would talk to customers. Who you would recruit, how many, and the five questions you would ask. What would change your mind.
 - **The experiment** — an A/B test of your change: the hypothesis, the primary metric, the guardrail metrics that must not get worse (for a lender, more completed applications is not good if they are worse applications), and roughly how long it needs to run at our traffic. Say what you assumed about traffic.
 - **The instrumentation** — the events you would track, screen by screen, so we can see time per screen and where people leave. We use Amplitude today for analytics and experiments. If you would add or replace a tool — session replay, surveys, a heatmap, a research platform — name it and say why it is worth it.
+- **Conversion tracking** — how you would track the conversion ideas from Part 1: the funnel you would build (each step to the next, and start to SSN), how you split it (device, traffic source, income type, new or returning), the numbers you would watch each week, and how you tell a real lift from noise or from a change in traffic.
 - **The result that makes you undo it.**
 
 Half a page is enough.
@@ -152,6 +165,7 @@ Every submission is followed by a **60-minute live session** with the team. Expe
 - **Financial clarity and trust** — do you see what a customer needs to make a safe decision?
 - **Craft** — design and words, phone first, consistent with Apply Now.
 - **Edge cases** — the states nobody asked for.
+- **Conversion** — practical ideas for each screen, each with a way to measure it.
 - **Research and measurement** — interviews, an experiment with the right guardrails, and the data to read it.
 - **Design system thinking** — one brand across product, site, email and social, kept alive with AI.
 - **Speed with AI** — how much you delivered for the time, and how well you directed and checked the tools.
